@@ -10,10 +10,7 @@ import {
 	deleteProduct,
 	createProduct,
 } from '../actions/productActions';
-import {
-	PRODUCT_CREATE_RESET,
-	PRODUCT_CREATE_SUCCESS,
-} from '../constants/productConstants';
+import {PRODUCT_CREATE_RESET} from '../constants/productConstants';
 
 const ProductListScreen = ({history, match}) => {
 	const dispatch = useDispatch();
